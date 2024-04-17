@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="practico7.css">
+</head>
+
+<body>
+    <form>
+        <h1>Formulario 7.5</h1>
+        <p>
+            <label> Nombre:
+                <input type="text" name="nombre" placeholder="Nombre" required maxlength="30">
+            </label>
+        </p>
+        <p>
+            <label> Apellido:
+                <input type="text" name="apellido" placeholder="Apellido" required maxlength="50">
+            </label>
+        </p>
+        <p>
+            <label> Sexo:
+                <input type="radio" name="sexo" value="masculino"> Masculino
+                <input type="radio" name="sexo" value="femenino"> Femenino
+                <input type="radio" name="sexo" value="otro"> Otro
+            </label>
+        </p>
+        <p>
+            <label> Fecha de Nacimiento:
+                <input type="date" name="fnac">
+            </label>
+        </p>
+        <p>
+            <label> Materias en curso:
+                <input type="checkbox" name="matematica"> Matemática
+                <input type="checkbox" name="fisica"> Física
+                <input type="checkbox" name="quimica"> Química
+                <input type="checkbox" name="literatura"> Literatura
+                <input type="checkbox" name="filosofia"> Filosofía
+            </label>
+        </p>
+        <p>
+            <label> Año en curso:
+                <input type="radio" name="anioCurso" value="1ro"> 1ro
+                <input type="radio" name="anioCurso" value="2do"> 2do
+                <input type="radio" name="anioCurso" value="3ro"> 3ro
+                <input type="radio" name="anioCurso" value="4to"> 4to
+                <input type="radio" name="anioCurso" value="5to"> 5to
+                <input type="radio" name="anioCurso" value="6to"> 6to
+            </label>
+        </p>
+        <p>
+            <label> Institución:
+                <select name="institucion" required>
+                    <option value="">Selecciona una institución</option>
+                    <option value="UTU">UTU</option>
+                    <option value="LiceoMaldonado">Liceo Departamental de Maldonado</option>
+                    <option value="ColegioCapuchina">Colegio Capuchina</option>
+                    <option value="ColegioMaldonado">Colegio Maldonado</option>
+                    <option value="ColegioPadreDomingo">Colegio Padre Domingo</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label> Página Web:
+                <input type="url" name="paginaweb">
+            </label>
+        </p>
+        <p>
+            <label> Comentario:
+                <textarea name="comentario" placeholder="Escriba su mensaje" value=""
+                    style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; height: 100px; min-height: 100px; max-height: 250px; min-width: 100%; max-width: 100%; line-height: 1.5;"
+                    maxlength="300"></textarea>
+            </label>
+        </p>
+
+        <input type="submit" name="aceptar" value="Aceptar">
+        <input type="reset" name="cancelar" value="Cancelar">
+    </form>
+</body>
+
+</html>

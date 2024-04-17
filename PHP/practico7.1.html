@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="practico7.css">
+</head>
+
+<body>
+    <form>
+        <h1>Formulario práctico 7.1</h1>
+        <p>
+            <label> Cédula de Identidad:
+                <input type="text" name="ci" placeholder="Sólo numeros" pattern="[0-9]{1,}" title="Solo números" required>
+            </label>
+        </p>
+        <p>
+            <label> Nombre:
+                <input type="text" name="nombre" placeholder="Nombre" required maxlength="30">
+            </label>
+        </p>
+        <p>
+            <label> Apellido:
+                <input type="text" name="apellido" placeholder="Apellidos" required maxlength="50">
+            </label>
+        </p>
+        <p>
+            <label> Cantidad horas trabajadas:
+                <input type="number" name="horasTrabajadas" placeholder="Horas Trabajadas">
+            </label>
+        </p>
+        <p>
+            <label> Valor hora:
+                <input type="number" name="valorHora" placeholder="Valor de la hora">
+            </label>
+        </p>
+        <input type="submit" name="aceptar" value="Aceptar">
+        <input type="reset" name="cancelar" value="Cancelar">
+    </form>
+</body>
+
+</html>
