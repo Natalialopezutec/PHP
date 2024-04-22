@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="url"],
+input[type="search"],
+input[type="submit"],
+input[type="reset"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #45a049; /* Líneas dobles verdes */
+    background-color: white; /* Fondo blanco */
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #45a049; /* Líneas dobles verdes */
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
