@@ -1,0 +1,43 @@
+COMANDOS UTILES
+
+***para servicios MySQL y Apache 2 ***
+sudo /etc/init.d/mysql stop
+sudo /etc/init.d/apache2 stop
+
+*** para iniciar servicios de xampp ***
+sudo /opt/lampp/lampp start 
+
+***para copiar archivo a otro lado***
+cp -a textoACopiar.php /Escritorio/PHP
+
+***para ejecuar un .run o cualquier cosa***
+sudo ./prog.run
+
+*** para agregar user a root ***
+sudo adduser natalia www-data
+
+*** para agregar permisos 
+sudo chmod -R g+rwX /var/www
+
+*** para ver los dueños de los archivos ***
+ls -l
+
+*** para cambiar los dueños de los archivos ***
+sudo chown natalia:natalia practico8.1.php 
+
+
+*** para dar permisos a htdocs de xampp ***
+sudo nautilus /opt/lampp/htdocs
+
+
+*** para acceder a xampp ***
+localhost
+
+*** para acceder a xampp carpeta php ***
+localhost/PHP
+
+*** para acceder a phpmyadmin***
+localhost/phpmyadmin
+
+
+
